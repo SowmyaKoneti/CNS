@@ -1,0 +1,127 @@
+2023-10-12 23:39:46.300 [info] Extension host with pid 1140 started
+2023-10-12 23:39:46.350 [info] Lock '/home/sowmyak/.vscode-server/data/User/workspaceStorage/d9271a25b822ee9ba0268136bf8a4c9e/vscode.lock': Lock acquired.
+2023-10-12 23:39:46.425 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-10-12 23:39:46.438 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-10-12 23:39:46.509 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-12 23:39:46.734 [info] Eager extensions activated
+2023-10-12 23:39:46.735 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:39:46.735 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-12 23:39:47.291 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-10-12 23:39:52.298 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-10-12 23:39:52.298 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-12 23:58:21.960 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2023-10-12 23:59:09.237 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-10-12 23:59:09.237 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-10-12 23:59:39.087 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-10-13 00:03:00.509 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-10-13 01:35:46.227 [info] Extension host terminating: received terminate message from renderer
+2023-10-13 01:35:46.228 [info] Lock '/home/sowmyak/.vscode-server/data/User/workspaceStorage/d9271a25b822ee9ba0268136bf8a4c9e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-10-13 01:35:46.313 [error] Canceled: Canceled
+	at new m (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:57216)
+	at i.U (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:135:10864)
+	at M.<computed>.j.charCodeAt.M.<computed> (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:135:8315)
+	at n.g (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:83747)
+	at n.executeCommand (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:83185)
+	at b.registerCommand.description (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:82506)
+	at n.h (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:84283)
+	at n.g (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:83278)
+	at n.executeCommand (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:83185)
+	at Object.executeCommand (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:141:21282)
+	at s.D [as value] (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1312800)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.A (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at c.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1328588)
+	at /home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1333429
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1333415)
+	at w.<anonymous> (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:122:3521)
+	at w.dispose (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:122:3618)
+	at w.<anonymous> (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1314812)
+	at w.dispose (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:122:3618)
+	at o (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at s.cb (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:137:9846)
+	at /home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:137:7796
+	at Array.map (<anonymous>)
+	at s.Y (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:137:7784)
+	at s.terminate (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:137:8054)
+	at o.terminate (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:141:1513)
+	at l (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:154:9801)
+	at s.value (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:154:7848)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+	at r.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+	at s.value (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at s.acceptChunk (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+	at s.value (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:19173)
+	at c.acceptFrame (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:18979)
+	at a.n (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:17612)
+	at /home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:14959
+	at Socket.f (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:12873)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-10-13 01:35:46.317 [error] Canceled: Canceled
+	at new m (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:57216)
+	at i.U (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:135:10864)
+	at M.<computed>.j.charCodeAt.M.<computed> (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:135:8315)
+	at n.g (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:83747)
+	at n.executeCommand (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:83185)
+	at b.registerCommand.description (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:82506)
+	at n.h (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:84283)
+	at n.g (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:83278)
+	at n.executeCommand (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:126:83185)
+	at Object.executeCommand (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:141:21282)
+	at set b [as b] (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/github/dist/extension.js:2:714415)
+	at /home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/github/dist/extension.js:2:715056
+	at s.value (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1402040)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.A (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at c.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1328588)
+	at /home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1333429
+	at Array.forEach (<anonymous>)
+	at g.dispose (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1333415)
+	at w.<anonymous> (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:122:3521)
+	at w.dispose (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:122:3618)
+	at w.<anonymous> (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/main.js:2:1314812)
+	at w.dispose (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:122:3618)
+	at o (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at s.cb (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:137:9846)
+	at /home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:137:7796
+	at Array.map (<anonymous>)
+	at s.Y (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:137:7784)
+	at s.terminate (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:137:8054)
+	at o.terminate (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:141:1513)
+	at l (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:154:9801)
+	at s.value (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:154:7848)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+	at r.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+	at s.value (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at s.acceptChunk (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+	at s.value (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at c.fire (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at c.z (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:19173)
+	at c.acceptFrame (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:18979)
+	at a.n (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:17612)
+	at /home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:14959
+	at Socket.f (/home/sowmyak/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/out/vs/workbench/api/node/extensionHostProcess.js:151:12873)
+	at Socket.emit (node:events:513:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-10-13 01:35:46.328 [info] Extension host with pid 1140 exiting with code 0

@@ -1,0 +1,97 @@
+0 verbose cli [
+0 verbose cli   '/usr/bin/node',
+0 verbose cli   '/usr/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--ignore-scripts',
+0 verbose cli   '@types/vscode@ts5.2',
+0 verbose cli   '--save-dev',
+0 verbose cli   '--user-agent=typesInstaller/5.2.2'
+0 verbose cli ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/sowmyak/.cache/typescript/5.2/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:/home/sowmyak/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 0ms
+18 timing config:load Completed in 9ms
+19 timing npm:load:configload Completed in 10ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 1ms
+22 timing npm:load:display Completed in 1ms
+23 verbose logfile /home/sowmyak/.npm/_logs/2023-10-13T04_59_14_562Z-debug-0.log
+24 timing npm:load:logFile Completed in 3ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 14ms
+28 timing arborist:ctor Completed in 0ms
+29 silly logfile start cleaning logs, removing 1 files
+30 timing idealTree:init Completed in 22ms
+31 timing arborist:ctor Completed in 0ms
+32 http fetch GET 200 https://registry.npmjs.org/@types%2fvscode 900ms (cache miss)
+33 timing idealTree:userRequests Completed in 906ms
+34 silly idealTree buildDeps
+35 silly fetch manifest @types/vscode@1.83.0
+36 silly placeDep ROOT @types/vscode@1.83.0 OK for:  want: 1.83.0
+37 timing idealTree:#root Completed in 4ms
+38 timing idealTree:node_modules/@types/vscode Completed in 0ms
+39 timing idealTree:buildDeps Completed in 4ms
+40 timing idealTree:fixDepFlags Completed in 1ms
+41 timing idealTree Completed in 935ms
+42 timing reify:loadTrees Completed in 936ms
+43 timing reify:diffTrees Completed in 1ms
+44 silly reify moves {}
+45 timing reify:retireShallow Completed in 0ms
+46 timing reify:createSparse Completed in 1ms
+47 timing reify:loadBundles Completed in 0ms
+48 silly audit bulk request {
+48 silly audit   '@types/body-parser': [ '1.19.3' ],
+48 silly audit   '@types/connect': [ '3.4.36' ],
+48 silly audit   '@types/express': [ '4.17.19' ],
+48 silly audit   '@types/express-serve-static-core': [ '4.17.37' ],
+48 silly audit   '@types/http-errors': [ '2.0.2' ],
+48 silly audit   '@types/merge-descriptors': [ '1.0.1' ],
+48 silly audit   '@types/mime': [ '1.3.3' ],
+48 silly audit   '@types/node': [ '20.8.5' ],
+48 silly audit   '@types/qs': [ '6.9.8' ],
+48 silly audit   '@types/range-parser': [ '1.2.5' ],
+48 silly audit   '@types/redis-errors': [ '1.2.1' ],
+48 silly audit   '@types/send': [ '0.17.2' ],
+48 silly audit   '@types/serve-static': [ '1.15.3' ],
+48 silly audit   '@types/uuid': [ '9.0.5' ],
+48 silly audit   'types-registry': [ '0.1.664' ],
+48 silly audit   'undici-types': [ '5.25.3' ],
+48 silly audit   '@types/vscode': [ '1.83.0' ]
+48 silly audit }
+49 silly tarball no local data for @types/vscode@https://registry.npmjs.org/@types/vscode/-/vscode-1.83.0.tgz. Extracting by manifest.
+50 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 91ms
+51 timing auditReport:getReport Completed in 92ms
+52 silly audit report {}
+53 timing auditReport:init Completed in 0ms
+54 timing reify:audit Completed in 93ms
+55 http fetch GET 200 https://registry.npmjs.org/@types/vscode/-/vscode-1.83.0.tgz 385ms (cache miss)
+56 timing reifyNode:node_modules/@types/vscode Completed in 389ms
+57 timing reify:unpack Completed in 389ms
+58 timing reify:unretire Completed in 1ms
+59 timing build:queue Completed in 1ms
+60 timing build:deps Completed in 1ms
+61 timing build Completed in 1ms
+62 timing reify:build Completed in 2ms
+63 timing reify:trash Completed in 0ms
+64 timing reify:save Completed in 7ms
+65 timing reify Completed in 1361ms
+66 silly ADD node_modules/@types/vscode
+67 timing command:install Completed in 1365ms
+68 verbose exit 0
+69 timing npm Completed in 1497ms
+70 info ok

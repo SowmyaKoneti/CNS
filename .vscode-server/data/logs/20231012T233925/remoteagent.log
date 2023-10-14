@@ -1,0 +1,18 @@
+2023-10-12 23:39:25.209 [info] 
+
+
+
+
+2023-10-12 23:39:25.209 [info] Extension host agent started.
+2023-10-12 23:39:25.253 [info] Started initializing default profile extensions in extensions installation folder. file:///home/sowmyak/.vscode-server/extensions
+2023-10-12 23:39:25.291 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/sowmyak/.vscode-server/extensions
+2023-10-12 23:39:26.046 [info] [127.0.0.1][cecba143][ManagementConnection] New connection established.
+2023-10-12 23:39:26.057 [info] [127.0.0.1][41fe57e8][ExtensionHostConnection] New connection established.
+2023-10-12 23:39:26.353 [info] [127.0.0.1][41fe57e8][ExtensionHostConnection] <1032> Launched Extension Host Process.
+2023-10-12 23:39:42.028 [info] [127.0.0.1][cecba143][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-12 23:39:42.056 [info] [127.0.0.1][41fe57e8][ExtensionHostConnection] <1032> Extension Host Process exited with code: 0, signal: null.
+2023-10-12 23:39:44.526 [info] [127.0.0.1][df066659][ManagementConnection] New connection established.
+2023-10-12 23:39:45.272 [info] [127.0.0.1][cdfc49e3][ExtensionHostConnection] New connection established.
+2023-10-12 23:39:45.301 [info] [127.0.0.1][cdfc49e3][ExtensionHostConnection] <1140> Launched Extension Host Process.
+2023-10-13 01:35:46.280 [info] [127.0.0.1][df066659][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-13 01:35:46.351 [info] [127.0.0.1][cdfc49e3][ExtensionHostConnection] <1140> Extension Host Process exited with code: 0, signal: null.

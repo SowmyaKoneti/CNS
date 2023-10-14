@@ -1,0 +1,28 @@
+2023-10-13 21:57:08.767 [info] Log level: Info
+2023-10-13 21:57:08.767 [info] Validating found git in: "git"
+2023-10-13 21:57:08.767 [info] Using git "2.34.1" from "git"
+2023-10-13 21:57:08.767 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-13 21:57:08.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-13 21:57:08.767 [info] > git rev-parse --show-toplevel [14ms]
+2023-10-13 21:57:08.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-13 21:57:08.767 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-13 21:57:08.767 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-13 21:57:08.773 [info] > git rev-parse --show-toplevel [1ms]
+2023-10-13 21:57:08.773 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-13 21:57:08.781 [info] > git rev-parse --show-toplevel [3ms]
+2023-10-13 21:57:08.788 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-10-13 21:57:08.795 [info] Open repository: /home/sowmyak/.nvm
+2023-10-13 21:57:08.802 [info] > git config --get commit.template [3ms]
+2023-10-13 21:57:08.803 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-13 21:57:08.803 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-13 21:57:08.810 [info] > git rev-parse --show-toplevel [0ms]
+2023-10-13 21:57:08.810 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-13 21:57:08.813 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [7ms]
+2023-10-13 21:57:08.840 [info] > git status -z -uall [23ms]
+2023-10-13 21:57:08.841 [info] > git rev-parse --show-toplevel [28ms]
+2023-10-13 21:57:08.841 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-13 21:57:08.878 [info] > git rev-parse --show-toplevel [34ms]
+2023-10-13 21:57:08.878 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-10-13 21:57:08.881 [info] > git config --get commit.template [4ms]
+2023-10-13 21:57:08.885 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2023-10-13 21:57:08.899 [info] > git status -z -uall [9ms]
